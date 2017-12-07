@@ -1,4 +1,4 @@
-import { AppRegistry } from 'react-native';
-import Temp from './app/temp';
+import { AppRegistry } from "react-native";
+import ApplicationRoute from "./app/routes";
 
-AppRegistry.registerComponent('groceryStore', () => Temp);
+AppRegistry.registerComponent("groceryStore", () => ApplicationRoute);
